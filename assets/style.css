@@ -15,9 +15,21 @@ body {
     min-height: 100vh;
     font-size: 16px;
     font-weight: 600;
-    display: grid;
-
 }
+
+.container { /* 12 column layout, each column nickname */
+    display: grid;
+    gap: 20px;
+    grid-template-areas: /* mobile first */
+    "header"
+    "nav"
+    "aside"
+    "content"
+    "aside"
+    "content"
+    "footer"
+}
+
 
 
 header {
