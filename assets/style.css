@@ -1,1 +1,31 @@
+:root {
+    --header-color: rgb(49, 52, 61);
+    --bg-color: rgb(237,237,246);
+    --highlight-color: rgb(146, 204, 205);
+    --text-color: rgb(68, 88, 118);
+}
 
+
+
+
+body {
+    background-color: var(--bg-color);
+    font-family: helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color);
+    min-height: 100vh;
+    font-size: 16px;
+    font-weight: 600;
+    display: grid;
+
+}
+
+
+header {
+    display: flex;
+}
+main {
+    display: flex;
+}
+footer {
+    display: flex;
+}
