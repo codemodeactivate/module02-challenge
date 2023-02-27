@@ -217,28 +217,32 @@ body {
         position: relative;
         flex-flow: row wrap;
         grid-area: work-content;
-        justify-content: center;
+        justify-content: space-between;
         margin-top: 20px;
         padding-left: 20px;
+        padding-right: 20px;
         width: 100%;
+        align-content: space-around;
+        align-items: stretch;
+        gap: 20px;
     }
 
     .item {
         width: 40%;
         color: #00ff00;
+        flex-grow: 2;
     }
 
     .item img {
         max-width: 100%;
-
     }
 
     .item:first-child  {
-        width: 100lvh;
+        width: 200%;
         color: red;
     }
     .item:first-child img {
-        max-width: 100%;
+        width: 100%;
     }
 
 
