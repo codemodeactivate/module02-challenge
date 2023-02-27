@@ -217,7 +217,7 @@ body {
         position: relative;
         flex-flow: row wrap;
         grid-area: work-content;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
@@ -253,12 +253,30 @@ body {
         padding: 15px;
         filter: brightness(1.25);
         margin-right: 75px;
-        margin-bottom: 40px;
+
     }
 
     .label {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
         position: relative;
-        bottom: 40px;
+        bottom: 30%;
+        min-width: 25%;
+        max-width: 35%;
+        gap: 0px;
+    }
+
+    .description {
+        background-color: var(--highlight-color);
+        display: block;
+        color: var(--header-color);
+        font-size: 20px;
+        padding: 15px;
+        filter: brightness(1.25);
+        margin-right: 75px;
+        margin-bottom: 40px;
+        bottom: 50%;
     }
 
 
