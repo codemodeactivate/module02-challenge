@@ -142,6 +142,7 @@ body {
     .subtitle {
         grid-area: subtitle;
         display: flex;
+        flex-direction: column;
         background-color: black;
         overflow: hidden;
         height: 300px;
@@ -162,8 +163,19 @@ body {
         padding: 15px;
         filter: brightness(1.25);
         margin-right: 75px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
 
+    }
+
+    .subtitle p {
+        background-color: var(--highlight-color);
+        display: block;
+        color: var(--header-color);
+        font-size: 24px;
+        padding: 15px;
+        filter: brightness(1.25);
+        margin-right: 75px;
+        margin-bottom: 40px;
     }
 
     .about {
