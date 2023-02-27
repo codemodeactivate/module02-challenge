@@ -22,7 +22,7 @@ body {
 
 .wrapper {
     display: grid;
-    gap: 20px;
+    gap: 0px;
     grid-template-areas: /* mobile first */
     "header"
     "subtitle"
@@ -51,6 +51,7 @@ body {
         display: flex;
         justify-content: space-between;
     }
+
 }
 
 @media (min-width: 700px) {
@@ -66,16 +67,55 @@ body {
     }
     nav ul {
         flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    nav ul li a {
+        text-decoration: underline;
+        font-size: 40px;
+        color: var(--highlight-color);
+        padding: 20px;
+    }
+
+    nav ul li a:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .foot ul {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .foot ul li {
+        display: block;
+        flex: 0 1 auto;
+        list-style-type: none;
     }
 }
 .header {
     grid-area: header;
     display: flex;
+    background-color: var(--header-color);
+    color: var(--bg-color);
+    padding: 20px;
+}
+
+.header h1 {
+    background-color: var(--highlight-color);
+    color: var(--header-color);
+    font-size: 40px;
 }
 
 .nav {
     grid-area: nav;
     display: flex;
+    flex-direction: row-reverse;
+    gap: 2em;
+    background-color: var(--header-color);
+    padding: 20px;
 }
 
 .subtitle {
@@ -87,9 +127,12 @@ body {
 .about {
     display: flex;
     grid-area: about;
+    border-right: 3px var(--text-color) solid;
+    margin-top: 20px;
 }
 
 .bio {
+    margin-top: 20px;
     display: flex;
     grid-area: bio;
 }
@@ -97,20 +140,26 @@ body {
 .work {
     display: flex;
     grid-area: work;
+    border-right: 3px var(--text-color) solid;
+    margin-top: 20px;
 }
 
 .work-content {
     display: flex;
     grid-area: work-content;
+    margin-top: 20px;
 }
 
 .contact {
     display: flex;
     grid-area: contact;
+    border-right: 3px var(--text-color) solid;
+    margin-top: 20px;
 }
 
 
 .foot {
     display: flex;
     grid-area: foot;
+    margin-top: 20px;
 }
