@@ -97,6 +97,19 @@ body {
         list-style-type: none;
     }
 
+    .foot ul li a {
+        text-decoration: underline;
+        font-size: 40px;
+        color: var(--header-color);
+        padding: 20px;
+        text-decoration-color: var(--text-color);
+        text-underline-offset: .55em;
+    }
+
+    .foot ul li a:hover {
+        text-decoration: none;
+    }
+
     .header {
         grid-area: header;
         display: flex;
