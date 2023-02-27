@@ -95,18 +95,23 @@ body {
         list-style-type: none;
     }
 }
+
 .header {
     grid-area: header;
     display: flex;
     background-color: var(--header-color);
     color: var(--bg-color);
-    padding: 20px;
+    padding: 0px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header h1 {
     background-color: var(--highlight-color);
     color: var(--header-color);
     font-size: 40px;
+    padding-left: 30px;
+    padding-bottom: 0px;
 }
 
 .nav {
@@ -121,7 +126,13 @@ body {
 .subtitle {
     grid-area: subtitle;
     display: flex;
-    background-color: red;
+    background-image: url("./assets/images/subtitle-bg.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .about {
