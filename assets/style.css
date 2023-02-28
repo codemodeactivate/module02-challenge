@@ -77,11 +77,16 @@ body {
         font-size: 40px;
         color: var(--highlight-color);
         padding: 20px;
+        text-underline-offset: .25em;
     }
 
     nav ul li a:hover {
         cursor: pointer;
         text-decoration: none;
+        display: inline;
+        background-color: var(--highlight-color);
+        color: var(--header-color);
+        transition: .25s;
     }
 
     .foot ul {
@@ -98,7 +103,7 @@ body {
 
     .foot ul li a {
         text-decoration: underline;
-        font-size: 40px;
+        font-size: 20px;
         color: var(--header-color);
         padding: 20px;
         text-decoration-color: var(--text-color);
@@ -319,7 +324,7 @@ body {
     .foot {
         display: flex;
         grid-area: foot;
-        margin-top: 20px;
+        margin-top: 35px;
         padding-left: 20px;
 
     }
