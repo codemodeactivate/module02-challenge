@@ -11,7 +11,7 @@ Here's the example image: ![Here's the example image](./assets/02-advanced-css-h
 
 ## To-Do
 
-- [ ] Add styling for onmouseover on portfolio items. Transition or Decorations.
+- [x] Add styling for onmouseover on portfolio items. Transition or Decorations.
 - [ ] Add a recent photo somewhere. No image shown in preview/reference.
 - [x] Links in nav make window scroll to relevant section in body.
 - [x] First image in portfolio is larger than the rest
