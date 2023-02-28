@@ -234,16 +234,19 @@ body {
         color: #00ff00;
         flex-grow: 2;
         position: relative;
+        border: 6px var(--highlight-color) solid;
 
     }
 
     .item img {
         max-width: 100%;
         filter: brightness(80%);
+
     }
 
     .item img:hover {
         filter: brightness(100%);
+        transition: .5s ease-in;
     }
 
     .item:first-child  {

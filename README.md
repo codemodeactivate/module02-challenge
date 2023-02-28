@@ -17,6 +17,7 @@ Here's the example image: ![Here's the example image](./assets/02-advanced-css-h
 - [x] First image in portfolio is larger than the rest
 - [x] When I click on the image of the app I am taken to a deployed application. I have one website I own which I linked and it opens in a new tab.
 - [ ] Add media queries so it doesn't look like garbage when on smaller screen sizes. No images provided for reference, so I don't think the bar is too high here.
+- [x] Add borders around portfolio items
 - [ ] Add link to deployed application
 
 
