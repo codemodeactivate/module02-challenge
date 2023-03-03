@@ -2,7 +2,7 @@
 Case Western Coding Bootcamp - edX - Module 02 Challenge
 
 ## Deployed Application
-[Porfolio Page](https://www.google.com)
+[Porfolio Page](https://codemodeactivate.github.io/module02-challenge/)
 ## Description
 This was largely a CSS exercise to recreate a porfolio page based on a gif. I painstakingly watched the gif 100s of times and tooks screenshots of the gif at different moments throughout to match my work as closely as I could.
 
@@ -18,7 +18,7 @@ Here's the example image: ![Here's the example image](./assets/02-advanced-css-h
 - [x] When I click on the image of the app I am taken to a deployed application. I have one website I own which I linked and it opens in a new tab.
 - [x] Add media queries so it doesn't look like garbage when on smaller screen sizes. No images provided for reference, so I don't think the bar is too high here.
 - [x] Add borders around portfolio items
-- [ ] Add link to deployed application
+- [x] Add link to deployed application
 
 
 ## Installation
