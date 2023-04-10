@@ -2,7 +2,7 @@
 Case Western Coding Bootcamp - edX - Module 02 Challenge
 
 ## Deployed Application
-[Porfolio Page](https://codemodeactivate.github.io/module02-challenge/)
+[Porfolio Page](https://codemodeactivate.github.io/portfolio-design/)
 ## Description
 This was largely a CSS exercise to recreate a porfolio page based on a gif. I painstakingly watched the gif 100s of times and tooks screenshots of the gif at different moments throughout to match my work as closely as I could.
 
